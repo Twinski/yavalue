@@ -1,5 +1,5 @@
 {
-  "name": "@yapp/my-awesome-package",
+  "name": "@yapp/yavalue",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
@@ -25,11 +25,11 @@
     "@types/react": "^16.9.49",
     "jest": "^26.4.2",
     "np": "^6.5.0",
+    "npm-install-peers": "^1.2.1",
     "rimraf": "^3.0.2",
     "ts-jest": "^26.3.0",
     "tsc": "^1.20150623.0",
-    "typescript": "^4.0.2",
-    "npm-install-peers": "^1.2.1"
+    "typescript": "^4.0.2"
   },
   "peerDependencies": {
     "react": "^16.13.1"
@@ -37,5 +37,8 @@
   "np": {
     "yarn": false,
     "cleanup": false
+  },
+  "dependencies": {
+    "is-plain-object": "^5.0.0"
   }
 }
