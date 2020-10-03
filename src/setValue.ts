@@ -1,6 +1,6 @@
 import { isPlainObject } from "is-plain-object";
 
-function set(target, path, value, options) {
+function set(target, path, value, options?: any) {
   if (!isObject(target)) {
     return target;
   }
