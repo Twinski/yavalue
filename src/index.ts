@@ -1,0 +1,1 @@
+export { useLala } from "./useLala";
